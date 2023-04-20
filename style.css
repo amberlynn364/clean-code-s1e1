@@ -55,7 +55,7 @@ input,button{
 .todo-task-label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo-add-item-input-wrapper {
@@ -144,7 +144,7 @@ input,button{
 }
 
 .todo-list > .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .button.delete-task .img-delete-button {
@@ -160,19 +160,19 @@ input,button{
 /* Completed */
 
 #todo-completed-tasks .todo-task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .todo-list .input-text {
-  display: none
+  display: none;
 }
 
 .todo-list.todo-incomplete-active-item .input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo-list.todo-incomplete-active-item .todo-task-label {
