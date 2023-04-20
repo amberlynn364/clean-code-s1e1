@@ -2,16 +2,16 @@
 basic 3.4 (Не используйте теговые селекторы (за исключением намеренного сброса дефолтных стилей)) */
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -37,7 +37,7 @@ input,button{
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -167,14 +167,14 @@ input,button{
 /* Edit Task */
 
 .todo-list .input-text {
-  display:none
+  display: none
 }
 
 .todo-list.todo-incomplete-active-item .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo-list.todo-incomplete-active-item .todo-task-label {
-  display:none;
+  display: none;
 }
